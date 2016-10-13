@@ -17,10 +17,15 @@ int main()
 	int sifre = 123456, sifreBumu, i, kalanHak = 3;
 	char yaziSayi[50];
 
+	cout << "Merhaba Dunya.\n";
+																			//BOOL Usage - Bool Yapýsý
+
 	//bool a = (6 > 3);					/*Anlýk Tanýmlama*/
 	//bool b = (5 > 8);						/*KARÞILAÞTIRMA OPERATÖRLERÝ KULLANIMI*/
 	//bool c = (9 == 9);
 	//bool d = (71 <= 4);
+
+																			//DEÐÝÞKEN ARTTIRMA VE AZALTMA.
 
 	//cout << "a degeri:" << a << endl;
 	//cout << "b degeri:" << b << endl;
@@ -29,34 +34,38 @@ int main()
 	//int a = 10, b = 20;
 	//++a;
 	//b--;
-	//cout << "a degeri:" << a <<endl ;							/*DEÐÝÞKEN ARTTIRMA VE AZALTMA.*/
+	//cout << "a degeri:" << a <<endl ;										
 	//cout << "b degeri:" << b << endl;
-	//	sonuc = a + b;
-	//	sonuc2 = a*b;
+	//sonuc = a + b;
+	//sonuc2 = a*b;
 	//cout << "A ve B Toplami:" << sonuc << endl;
 	//cout << "A ve B Carpimi:" << sonuc2 << endl;
-	/*std::*/cout << "Merhaba Dunya.\n";
+
+																			//cout içinde iþlem yapma
 
 	//cout << "Katlanacak sayiyi giriniz:";
 	//	cin >> x;
 	//cout << "Sayinin 2 kati:" << x * 2 <<"\n";
 
+																			//Deðiþken atayarak sonucu gösterme iþlemi.
+
 	//cout << "1. sayiyi giriniz:";
 	//	cin >> sayi1;
 	//cout << "\n2. sayiyi giriniz: ";
 	//	cin >> sayi2;
-	//toplam = sayi1 + sayi2;													//Deðiþken atayarak sonucu gösterme iþlemi.
+	//toplam = sayi1 + sayi2;													
 	//cout << "Iki sayinin toplami:" << toplam <<"\n";
+
+																			//4 SAYI GÝRÝYORUZ VE TOPLATIP CIKARIYORUZ SONUCU ATAMA YAPARAK EKRANA VERÝYORUZ.
 
 	//	 cout<< "1. Sayiyi Giriniz:";
 	//		cin >> sayi3;
-	//	cout << "\n2. Sayiyi Giriniz:";											/*4 SAYI GÝRÝYORUZ VE TOPLATIP CIKARIYORUZ SONUCU ATAMA YAPARAK EKRANA VERÝYORUZ.*/
+	//	cout << "\n2. Sayiyi Giriniz:";											
 	//		cin >> sayi4;
 	//	cout << "\n3. Sayiyi Giriniz:";
 	//		cin >> sayi5;
 	//	cout << "\n4. Sayiyi Giriniz:";
 	//		cin >> sayi6;
-	//
 	//		carpma = sayi3*sayi5;
 	//		cout << "1. ve 3. sayinin carpimi:" << carpma<<"\n";
 	//		toplam2 = sayi4 + sayi6;
@@ -64,13 +73,15 @@ int main()
 	//		cikarma = carpma - toplam2;
 	//		cout << "Genel toplam:" << cikarma<< endl;		*/		
 
-	///*SAYINI YAZIYA? CEVIRME*/
+																			//*SAYINI YAZIYA? CEVIRME*/
+
 	//cout << "Yazilacak Sayi: ";
 	//cin >> yazilacakSayi;
 	//_itoa(yazilacakSayi, yaziSayi, 2);
 	//cout << "Sayinin Yazimi: " << yaziSayi << endl;
 
-	/*Þifre Girip Hoþgeldin Yazan Program FORIF*/
+																			//Þifre Girip Hoþgeldin Yazan Program FORIF
+
 	//giris:
 	//cout << "Sifreyi Giriniz:";
 	//cin >> sifreBumu;
@@ -94,7 +105,7 @@ int main()
 
 
 
-	/*FONKSÝYONLAR 101*/
+										/*FONKSÝYONLAR 101*/
 
 
 	//void denemeFonk();
@@ -102,6 +113,8 @@ int main()
 	//	cout << "Merhaba ilk fonksiyon \n" ;
 	//}
 
+																			//Sayýlarý Karþýlaþtýrma
+																							
 	//int karsilastirFonk();
 	//{
 	//	int sayiBmK, sayiBmK2;
@@ -123,7 +136,8 @@ int main()
 	//		}
 	//}
 
-	/*TOPLAMA ÇIKARMA*/
+																			//TOPLAMA ÇIKARMA
+
 	//int islem, sayi1, sayi2;
 	//cout << "1.sayiyi giriniz:";
 	//	cin >> sayi1;
